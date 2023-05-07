@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+    <head>
+        <title>My Test Webpage</title>
+    <script src="script.js"></script>
+    </head>
+    <body>
+        <br/>
+        <center>
+            <h1 id="demo">Math Flash Cards!</h1>
+            <script>
+                var numOne = Math.floor(Math.random() * 10 + 1);
+                var numTw0 = Math.floor(Math.random() * 10 + 1);
+                document.write(numOne + " + " + numTw0);
+
+            </script>
+
+        
+        <p>Please enter the correct answer:</p>
+        <input id="answer">
+        <button type="button" onclick="validation(numOne, numTw0)">Submit</button>
+        <br/><br/>
+        <p id="output"></p>
+
+        <script>
+        </script>
+        </center>
+    </body>
+</html>
